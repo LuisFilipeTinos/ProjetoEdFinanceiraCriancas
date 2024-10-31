@@ -4,5 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Prefabs/Tela Inicial - Tutorial.unity
+    guid: 548af756d4496d54b857b3d0df90f111
+  - enabled: 1
+    path: Assets/Scenes/Jogo.unity
+    guid: af5e30163f1408242b4f61bc557506b8
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
