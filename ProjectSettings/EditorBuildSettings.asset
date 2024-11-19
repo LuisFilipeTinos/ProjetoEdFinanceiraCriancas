@@ -11,5 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jogo.unity
     guid: af5e30163f1408242b4f61bc557506b8
+  - enabled: 1
+    path: Assets/Scenes/Jogo2.unity
+    guid: e019bccbf8df6794399fdb2fdc49fdb4
+  - enabled: 1
+    path: Assets/Prefabs/Final.unity
+    guid: 3ae31cf1080283f4bbd84f4828b83c43
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
