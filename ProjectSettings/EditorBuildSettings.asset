@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Prefabs/Menu Principal.unity
+    guid: 38fe43c2d030c8c49bf8de8163c9ab36
+  - enabled: 1
     path: Assets/Prefabs/Tela Inicial - Tutorial.unity
     guid: 548af756d4496d54b857b3d0df90f111
   - enabled: 1
@@ -14,8 +17,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jogo2.unity
     guid: e019bccbf8df6794399fdb2fdc49fdb4
-  - enabled: 1
-    path: Assets/Prefabs/Final.unity
-    guid: 3ae31cf1080283f4bbd84f4828b83c43
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

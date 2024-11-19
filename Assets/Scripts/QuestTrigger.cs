@@ -14,6 +14,7 @@ public class QuestTrigger : MonoBehaviour
     public TextMeshProUGUI MoneyText;
 
     private int currentBalao = 0; // Índice do balão atual
+    private bool missaoConcluida = false; // Estado da missão
 
     private void Start()
     {
@@ -29,6 +30,9 @@ public class QuestTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // Verifica se a missão já foi concluída
+        if (missaoConcluida) return;
+
         if (other.gameObject.CompareTag("Casa Blue"))
         {
             MostrarBalao(0); // Mostra o BalaoMissao1
@@ -107,5 +111,8 @@ public class QuestTrigger : MonoBehaviour
         // Esconde a imagem de missão e mostra o próximo balão (BalaoMissao4)
         ImagemMissao.SetActive(false);
         MostrarBalao(3); // Exibe o BalaoMissao4
+
+        // Marca a missão como concluída
+        missaoConcluida = true;
     }
 }

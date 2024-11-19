@@ -4,7 +4,7 @@ public class DynamicScaleByDistance : MonoBehaviour
 {
     public Transform player; // Referência ao jogador
     public float baseScale = 1f; // Escala base para o objeto
-    public float scaleFactor = 0.1f; // Fator de escala com base na distância
+    public float scaleFactor = 0.3f; // Fator de escala com base na distância
 
     void Update()
     {

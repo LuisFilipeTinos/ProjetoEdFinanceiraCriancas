@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -717,7 +717,7 @@ MonoBehaviour:
   - {fileID: 36208658}
   - {fileID: 2027059943}
   botaoProximo: {fileID: 55486283}
-  botaoJogar: {fileID: 0}
+  botaoJogar: {fileID: 1211384669}
 --- !u!4 &486746538
 Transform:
   m_ObjectHideFlags: 0
@@ -1225,7 +1225,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9fcd81ccd8ed34d45b48cfbd4cce1144, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd39747ab65e92445956dfb14b1bd385, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
